@@ -1,0 +1,46 @@
+footer img {
+    cursor: pointer;
+}
+
+footer > div {
+    background-color: #1c1c3b;
+}
+
+footer > div > div:first-child > span {
+    font-family: 'Questrial', sans-serif;
+}
+
+footer > div > div:first-child > span:nth-child(1) {
+    color: #d2d3d5;
+}
+
+footer > div > div:first-child > span:nth-child(2) {
+    color: #96999f;
+}
+
+footer #social > div {
+    height: 45px;
+    width: 45px;
+    border: 1px solid rgba(249, 249, 249, 0.15);
+    border-radius: 50px;
+    cursor: pointer;
+    color: #fff;
+    -webkit-transition: 0.3s ease-in all;
+    transition: 0.3s ease-in all;
+}
+
+footer #facebook:hover {
+    color: #3b5998;
+}
+
+footer #twitter:hover {
+    color: #1da1f2;
+}
+
+footer #dribbble:hover {
+    color: #ea4c84;
+}
+
+footer #instagram:hover {
+    color: #c35ad7;
+}

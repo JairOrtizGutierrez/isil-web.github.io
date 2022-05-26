@@ -1,0 +1,171 @@
+:root {
+    --color1: #191207;
+    --color2: #838b8c;
+}
+
+nav#nav-services {
+    height: 472px;
+    background-image: url(../img/background_2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav#nav-services > div {
+    height: 100%;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+nav#nav-services #title {
+    height: calc(100% - 129px);
+    font-family: Spartan-Bold;
+    font-size: 57px;
+    letter-spacing: -2px;
+}
+
+nav#nav-services #logo {
+    cursor: pointer;
+}
+
+nav#nav-services #links a {
+    font-family: Spartan-SemiBold;
+    font-weight: 500;
+    font-size: 17px;
+    color: #fff;
+}
+
+nav#nav-services #links a::after {
+    content: '';
+    width: 0px;
+    height: 1px;
+    border-top: 2px solid #fff;
+    display: block;
+    -webkit-transition: 0.3s ease-in all;
+    transition: 0.3s ease-in all;
+}
+
+nav#nav-services #links .nav-item.active a::after {
+    width: 100%;
+}
+
+nav#nav-services #links a:hover::after {
+    width: 100%;
+}
+
+nav#nav-services #icons i, nav #icons img {
+    cursor: pointer;
+}
+
+nav#nav-services #contact > div > div {
+    height: 39px;
+    width: 39px;
+    background-color: #ffaf26;
+    border-radius: 50px;
+    cursor: pointer;
+    color: #fff;
+}
+
+nav#nav-services #contact > div > span {
+    font-family: Spartan-SemiBold;
+}
+
+nav#nav-services #contact > button {
+    padding: 12px 32px;
+    font-family: Spartan-SemiBold;
+    font-size: 15px;
+    background-color: #d56607;
+    border-radius: 50px;
+}
+
+#strange-article {
+    background: #f6f7f0;
+    padding-bottom: 120px;
+    padding-top: 120px;
+}
+
+article #grid .card {
+    background-color: transparent;
+}
+
+article #grid .card .card-img {
+    overflow: hidden;
+}
+
+article #grid .card .card-img .img {
+    height: 305px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-transition: 0.3s ease-in-out all;
+    transition: 0.3s ease-in-out all;
+}
+
+article #grid .card:nth-child(1) .card-img .img {
+    background-image: url(../img/image_card_1.jpg);
+}
+
+article #grid .card:nth-child(2) .card-img .img {
+    background-image: url(../img/image_card_2.jpg);
+}
+
+article #grid .card:nth-child(3) .card-img .img {
+    background-image: url(../img/image_card_3.jpg);
+}
+
+article #grid .card:nth-child(4) .card-img .img {
+    background-image: url(../img/image_card_4.jpg);
+}
+
+article #grid .card:nth-child(5) .card-img .img {
+    background-image: url(../img/image_card_5.jpg);
+}
+
+article #grid .card:nth-child(6) .card-img .img {
+    background-image: url(../img/image_card_6.jpg);
+}
+
+article #grid .card:nth-child(7) .card-img .img {
+    background-image: url(../img/image_card_7.jpg);
+}
+
+article #grid .card:nth-child(8) .card-img .img {
+    background-image: url(../img/image_card_8.jpg);
+}
+
+article #grid .card:nth-child(9) .card-img .img {
+    background-image: url(../img/image_card_9.jpg);
+}
+
+article #grid .card:hover .img {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+article #grid .card img {
+    cursor: pointer;
+}
+
+article #grid .card > div {
+    background-color: #fff;
+}
+
+article #grid .card .card-title {
+    font-family: Spartan-Bold;
+    font-size: 28px;
+    letter-spacing: -2px;
+    color: var(--color1);
+}
+
+article #grid .card .card-text {
+    font-family: 'Questrial', sans-serif;
+    font-size: 17px;
+    color: var(--color2);
+}
+
+article #grid .card button {
+    width: 35px;
+    height: 35px;
+    border: 1px solid var(--color2);
+    border-radius: 50px;
+    color: #000;
+}

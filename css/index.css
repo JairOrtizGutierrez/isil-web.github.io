@@ -1,0 +1,161 @@
+:root {
+    --color1: #191207;
+    --color2: #838b8c;
+}
+
+nav#index #logo {
+    cursor: pointer;
+}
+
+nav#index #links a {
+    font-family: Spartan-SemiBold;
+    font-weight: 500;
+    font-size: 17px;
+    color: var(--color1);
+}
+
+nav#index #links a::after {
+    content: '';
+    width: 0px;
+    height: 1px;
+    border-top: 2px solid var(--color1);
+    display: block;
+    -webkit-transition: 0.3s ease-in all;
+    transition: 0.3s ease-in all;
+}
+
+nav#index #links .nav-item.active a::after {
+    width: 100%;
+}
+
+nav#index #links a:hover::after {
+    width: 100%;
+}
+
+nav#index #icons i, nav #icons img {
+    cursor: pointer;
+}
+
+#weird-article {
+    height: calc(100vh - 124px);
+}
+
+#weird-article > div {
+    height: 100%;
+    background-image: url(../img/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}    
+
+#weird-article > div > div {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+#weird-article > div > div > span:nth-child(1) {
+    font-family: 'Satisfy', cursive;
+    font-size: 30px;
+    color: #ffaf26;
+}
+
+#weird-article > div > div > span:nth-child(2) {
+    font-family: Spartan-Bold;
+    font-size: 76px;
+}
+
+#weird-article > div > div > button {
+    font-family: Spartan-SemiBold;
+    background-color: #d56607;
+    border-radius: 50px;
+}
+
+#weird-article > div > div > button:hover {
+    background-color: #b15100;
+}
+
+article #info > div {
+    cursor: pointer;
+}
+
+article #info > div > span:nth-child(2) {
+    font-family: Spartan-Bold;
+    font-size: 24px;
+    letter-spacing: -1px;
+    color: var(--color1);
+}
+
+article #info > div > span:nth-child(3) {
+    font-family: 'Questrial', sans-serif;
+    font-size: 17px;
+    color: var(--color2);
+}
+
+article #options {
+    background: #f6f7f0;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+article #options img {
+    cursor: pointer;
+}
+
+article #options > div:nth-child(2) > span:nth-child(1) {
+    font-family: 'Satisfy', cursive;
+    font-size: 30px;
+    color: #91be3d;
+}
+
+article #options > div:nth-child(2) > span:nth-child(2) {
+    font-family: Spartan-Bold;
+    font-size: 57px;
+    letter-spacing: -3px;
+    color: var(--color1);
+    line-height: 68px;
+}
+
+article #options > div:nth-child(2) > span:nth-child(3) {
+    font-family: 'Questrial', sans-serif;
+    font-size: 18px;
+    color: var(--color2);
+}
+
+article #options > div:nth-child(2) > div > div > i {
+    color: #d56607;
+}
+
+article #options > div:nth-child(2) > div > div > span {
+    font-family: 'Questrial', sans-serif;
+    font-size: 18px;
+    color: var(--color1);
+}
+
+article #options > div:nth-child(2) > button {
+    font-family: Spartan-SemiBold;
+    background-color: #d56607;
+    border-radius: 50px;
+}
+
+article #options > div:nth-child(2) > button:hover {
+    background-color: #b15100;
+}
+
+#background-image {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .6);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    opacity: 0;
+}
+
+#background-image img {
+    width: 360px;
+    margin: auto;
+}
